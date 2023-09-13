@@ -2,14 +2,16 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  background-color: antiquewhite;
 }
+
 
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px 50px;
-  background-color: #f4f4f4;
+  background-color: #96D4D4;
 }
 
 header img {
@@ -36,7 +38,7 @@ nav ul li a:hover {
 }
 
 #banner {
-  background-image: url("path_to_image.jpg"); /* Puedes reemplazar 'path_to_image.jpg' con la dirección de la imagen de fondo que desees */
+  background-image: url("https://img.pixers.pics/pho_wat(s3:700/FO/58/50/94/31/700_FO58509431_6ca6962864f72d32a31ce81a34d652cf.jpg,700,700,cms:2018/10/5bd1b6b8d04b8_220x50-watermark.png,over,480,650,jpg)/stickers-brown-dog-paw-pattern.jpg.jpg"); /* Puedes reemplazar 'path_to_image.jpg' con la dirección de la imagen de fondo que desees */
   background-size: cover;
   background-position: center;
   height: 500px;
@@ -46,10 +48,12 @@ nav ul li a:hover {
   color: white;
   flex-direction: column;
   gap: 20px;
+  border:5px solid black;
 }
 
 #banner h1 {
   font-size: 2.5em;
+  color: #FF6755;
 }
 
 #banner button {
@@ -60,7 +64,12 @@ nav ul li a:hover {
   cursor: pointer;
   transition: background-color 0.3s;
 }
+.Dogimg{
+  height: 250px;
+  width: 250px;
+}
 
 #banner button:hover {
   background-color: #ddd;
 }
+
